@@ -1,0 +1,26 @@
+.order-history__menu-link {
+    color: rgba(1, 1, 1, 0.87);
+    text-decoration: none;
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+}
+.order-history__menu-link.active,
+.order-history__menu-link:hover {
+    color: #25589B;
+}
+
+.order-history__menu-link::after {
+    border: 1px dashed #010101;
+    content: '';
+    display: block;
+}
+.order-history__menu-link.active::after,
+.order-history__menu-link:hover::after {
+    border: 1px dashed #25589B;
+    content: '';
+    display: block;
+}
+

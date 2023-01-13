@@ -1,0 +1,38 @@
+.product-table__head {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(1, 1, 1, 0.87);
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.product-table__head td {padding: 16px;}
+
+.product-table__head .product-table__check {}
+.product-table__head .product-table__article {
+    text-align: center;
+}
+.product-table__head .product-table__code {
+    text-align: center;
+}
+.product-table__head .product-table__pic {
+    text-align: center;
+}
+.product-table__head .product-table__name {}
+.product-table__head .product-table__price {
+    text-align: center;
+}
+.product-table__head .product-table__discount {
+    text-align: center;
+}
+.product-table__head .product-table__new-price {
+    text-align: center;
+}
+.product-table__head .product-table__quantity {
+    text-align: center;
+}
+.product-table__head .product-table__action {
+    text-align: center;
+}

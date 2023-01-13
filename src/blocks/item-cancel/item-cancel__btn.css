@@ -1,0 +1,26 @@
+.item-cancel__btn {
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.04), rgba(255, 0, 0, 0.04)), #FFFFFF;
+    border-radius: 13px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    padding: 6px 12px;
+}
+
+.item-cancel__btn::after {
+    content: '';
+    background-image: url(../../images/item-cancel.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin-left: 10px;
+}

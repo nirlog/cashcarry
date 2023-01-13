@@ -1,0 +1,4 @@
+.product-table__item {background-color: #fff;}
+.product-table__item:hover {
+    background-color: rgba(37, 88, 155, 0.04);
+}

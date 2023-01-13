@@ -1,0 +1,11 @@
+.item-cancel {
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .item-cancel {
+        order: 3;
+    }
+}

@@ -1,0 +1,12 @@
+.item-footer__btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .item-footer__btns {
+        flex-direction: row;
+    }
+}

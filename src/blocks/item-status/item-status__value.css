@@ -1,0 +1,24 @@
+.item-status__value {
+    display: inline-block;
+    padding: 6px 20px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    background: linear-gradient(0deg,rgba(37,88,155,.12),rgba(37,88,155,.12)),#fff;
+    color: #25589B;
+}
+
+.item-status__value_type_blue {
+    background: linear-gradient(0deg, #25589B, #25589B), #FFFFFF;
+    color: #fff;
+}
+
+.item-status__value_type_red {
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.12), rgba(255, 0, 0, 0.12)), #FFFFFF;
+    color: #FF0000;
+}

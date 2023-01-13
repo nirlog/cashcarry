@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastrolux</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body style="width: 100%; max-width: 1520px; padding: 0 15px; margin: auto;">
+  <div class="order-history">
+    <h1 class="order-history__title">История заказов</h1>
+    <div class="order-history__content">
+      <ul class="order-history__menu">
+        <li class="order-history__menu-title">Показать заказы:</li>
+        <li class="order-history__menu-item"><a href="" class="order-history__menu-link active">Активные</a></li>
+        <li class="order-history__menu-item"><a href="" class="order-history__menu-link">Все выполненные</a></li>
+        <li class="order-history__menu-item"><a href="" class="order-history__menu-link">Отмененные</a></li>
+      </ul>
+      <div class="order-history__list">
+        <div class="order-history__item open"> <!-- Если открыт по умолчанию, оставляем класс open -->
+          <div class="order-history__item-header">
+            <div class="item-status">
+              <span class="item-status__title">Статус:</span>
+              <span class="item-status__value item-status__value_type_blue">Новый заказ</span>
+            </div>
+            <div class="item-title">
+              <span>Заказ № Cash-1099</span>
+              <span class="item-title__date">от 01.01.2023</span>
+            </div>
+            <div class="item-cancel">
+              <button class="item-cancel__btn">Отмена заказа</button>
+            </div>
+          </div>
+            <div class="order-history__item-products scrollbar-inner">
+              <table class="product-table" cellspacing="0" cellpadding="0">
+                <thead class="product-table__head">
+                  <tr>
+                    <td class="product-table__article"><span class="product-table__filter">Артикул</span></td>
+                    <td class="product-table__code"><span class="product-table__filter">Код товара</span></td>
+                    <td class="product-table__pic"><span class="product-table__filter">Фото</span></td>
+                    <td class="product-table__name"><span class="product-table__filter active increase">Название</span></td>
+                    <td class="product-table__price"><span class="product-table__filter active decrease">Цена</span></td>
+                    <td class="product-table__discount"><span class="product-table__filter">Скидка</span></td>
+                    <td class="product-table__new-price"><span class="product-table__filter">Цена со скидкой</span></td>
+                    <td class="product-table__quantity"><span class="product-table__filter">Количество</span></td>
+                  </tr>
+                </thead>
+                <tbody class="product-table__body">
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          <div class="order-history__item-footer">
+            <div class="item-footer__left">
+              <div class="item-footer__btns">
+                <button class="item-footer__btn item-footer__btn-send">
+                  <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.522 9.51842V1.17822M20.522 1.17822H1.51904M20.522 1.17822L11.1261 8.56824L1.51904 1.17822M1.51904 1.17822V14.6416C1.51904 15.1938 1.96676 15.6416 2.51904 15.6416H12.0762M22 15.6416H14.2932M22 15.6416L18.4633 12.1049M22 15.6416L18.4633 19.1782" stroke="black" stroke-opacity="0.8" stroke-width="2" stroke-linejoin="round"/>
+                  </svg>
+                  Отправить на почту
+                </button>
+                <button class="item-footer__btn item-footer__btn-save">
+                  <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 1.17822V4.57822C5 5.13828 5 5.4183 5.10899 5.63221C5.20487 5.82038 5.35785 5.97336 5.54601 6.06923C5.75992 6.17822 6.03995 6.17822 6.6 6.17822H13.4C13.9601 6.17822 14.2401 6.17822 14.454 6.06923C14.6422 5.97336 14.7951 5.82038 14.891 5.63221C15 5.4183 15 5.13828 15 4.57822V2.17822M15 19.1782V12.7782C15 12.2182 15 11.9381 14.891 11.7242C14.7951 11.5361 14.6422 11.3831 14.454 11.2872C14.2401 11.1782 13.9601 11.1782 13.4 11.1782H6.6C6.03995 11.1782 5.75992 11.1782 5.54601 11.2872C5.35785 11.3831 5.20487 11.5361 5.10899 11.7242C5 11.9381 5 12.2182 5 12.7782V19.1782M19 7.50371V14.3782C19 16.0584 19 16.8985 18.673 17.5402C18.3854 18.1047 17.9265 18.5636 17.362 18.8512C16.7202 19.1782 15.8802 19.1782 14.2 19.1782H5.8C4.11984 19.1782 3.27976 19.1782 2.63803 18.8512C2.07354 18.5636 1.6146 18.1047 1.32698 17.5402C1 16.8985 1 16.0584 1 14.3782V5.97822C1 4.29807 1 3.45799 1.32698 2.81625C1.6146 2.25176 2.07354 1.79282 2.63803 1.5052C3.27976 1.17822 4.11984 1.17822 5.8 1.17822H12.6745C13.1637 1.17822 13.4083 1.17822 13.6385 1.23348C13.8425 1.28248 14.0376 1.36328 14.2166 1.47294C14.4184 1.59663 14.5914 1.76958 14.9373 2.11548L18.0627 5.24097C18.4086 5.58687 18.5816 5.75982 18.7053 5.96165C18.8149 6.1406 18.8957 6.33569 18.9447 6.53976C19 6.76993 19 7.01452 19 7.50371Z" stroke="#010101" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  Сохранить как файл
+                </button>
+              </div>
+            </div>
+            <div class="item-footer__right">
+              <div class="item-footer__total">
+                <div class="item-footer__total-title">Итого:</div>
+                <div>
+                  <div class="item-footer__total-old">1 000 282.44 ₽</div>
+                  <div class="item-footer__total-price">1 000 240.44 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="order-history__item-btn open"></button> <!-- Если открыт по умолчанию, оставляем класс open -->
+        </div>
+
+
+        <div class="order-history__item open"> <!-- Если открыт по умолчанию, оставляем класс open -->
+          <div class="order-history__item-header">
+            <div class="item-status">
+              <span class="item-status__title">Статус:</span>
+              <span class="item-status__value item-status__value_type_red">Отмена</span>
+            </div>
+            <div class="item-title">
+              <span>Заказ № Cash-1099</span>
+              <span class="item-title__date">от 01.01.2023</span>
+            </div>
+            <div class="item-cancel">
+            </div>
+          </div>
+            <div class="order-history__item-products scrollbar-inner">
+              <table class="product-table" cellspacing="0" cellpadding="0">
+                <thead class="product-table__head">
+                  <tr>
+                    <td class="product-table__article"><span class="product-table__filter">Артикул</span></td>
+                    <td class="product-table__code"><span class="product-table__filter">Код товара</span></td>
+                    <td class="product-table__pic"><span class="product-table__filter">Фото</span></td>
+                    <td class="product-table__name"><span class="product-table__filter active increase">Название</span></td>
+                    <td class="product-table__price"><span class="product-table__filter active decrease">Цена</span></td>
+                    <td class="product-table__discount"><span class="product-table__filter">Скидка</span></td>
+                    <td class="product-table__new-price"><span class="product-table__filter">Цена со скидкой</span></td>
+                    <td class="product-table__quantity"><span class="product-table__filter">Количество</span></td>
+                  </tr>
+                </thead>
+                <tbody class="product-table__body">
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          <div class="order-history__item-footer">
+            <div class="item-footer__left">
+              <div class="item-footer__btns">
+                <button class="item-footer__btn item-footer__btn-send">
+                  <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.522 9.51842V1.17822M20.522 1.17822H1.51904M20.522 1.17822L11.1261 8.56824L1.51904 1.17822M1.51904 1.17822V14.6416C1.51904 15.1938 1.96676 15.6416 2.51904 15.6416H12.0762M22 15.6416H14.2932M22 15.6416L18.4633 12.1049M22 15.6416L18.4633 19.1782" stroke="black" stroke-opacity="0.8" stroke-width="2" stroke-linejoin="round"/>
+                  </svg>
+                  Отправить на почту
+                </button>
+                <button class="item-footer__btn item-footer__btn-save">
+                  <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 1.17822V4.57822C5 5.13828 5 5.4183 5.10899 5.63221C5.20487 5.82038 5.35785 5.97336 5.54601 6.06923C5.75992 6.17822 6.03995 6.17822 6.6 6.17822H13.4C13.9601 6.17822 14.2401 6.17822 14.454 6.06923C14.6422 5.97336 14.7951 5.82038 14.891 5.63221C15 5.4183 15 5.13828 15 4.57822V2.17822M15 19.1782V12.7782C15 12.2182 15 11.9381 14.891 11.7242C14.7951 11.5361 14.6422 11.3831 14.454 11.2872C14.2401 11.1782 13.9601 11.1782 13.4 11.1782H6.6C6.03995 11.1782 5.75992 11.1782 5.54601 11.2872C5.35785 11.3831 5.20487 11.5361 5.10899 11.7242C5 11.9381 5 12.2182 5 12.7782V19.1782M19 7.50371V14.3782C19 16.0584 19 16.8985 18.673 17.5402C18.3854 18.1047 17.9265 18.5636 17.362 18.8512C16.7202 19.1782 15.8802 19.1782 14.2 19.1782H5.8C4.11984 19.1782 3.27976 19.1782 2.63803 18.8512C2.07354 18.5636 1.6146 18.1047 1.32698 17.5402C1 16.8985 1 16.0584 1 14.3782V5.97822C1 4.29807 1 3.45799 1.32698 2.81625C1.6146 2.25176 2.07354 1.79282 2.63803 1.5052C3.27976 1.17822 4.11984 1.17822 5.8 1.17822H12.6745C13.1637 1.17822 13.4083 1.17822 13.6385 1.23348C13.8425 1.28248 14.0376 1.36328 14.2166 1.47294C14.4184 1.59663 14.5914 1.76958 14.9373 2.11548L18.0627 5.24097C18.4086 5.58687 18.5816 5.75982 18.7053 5.96165C18.8149 6.1406 18.8957 6.33569 18.9447 6.53976C19 6.76993 19 7.01452 19 7.50371Z" stroke="#010101" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  Сохранить как файл
+                </button>
+              </div>
+            </div>
+            <div class="item-footer__right">
+              <div class="item-footer__total">
+                <div class="item-footer__total-title">Итого:</div>
+                <div>
+                  <div class="item-footer__total-old">1 000 282.44 ₽</div>
+                  <div class="item-footer__total-price">1 000 240.44 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="order-history__item-btn open"></button> <!-- Если открыт по умолчанию, оставляем класс open -->
+        </div>
+
+
+        <div class="order-history__item"> <!-- Если закрыт по умолчанию, удаляем класс open -->
+          <div class="order-history__item-header">
+            <div class="item-status">
+              <span class="item-status__title">Статус:</span>
+              <span class="item-status__value item-status__value_type_blue">Выполнен</span>
+            </div>
+            <div class="item-title">
+              <span>Заказ № Cash-1099</span>
+              <span class="item-title__date">от 01.01.2023</span>
+            </div>
+            <div class="item-cancel">
+              <button class="item-cancel__btn">Отмена заказа</button>
+            </div>
+          </div>
+            <div class="order-history__item-products scrollbar-inner">
+              <table class="product-table" cellspacing="0" cellpadding="0">
+                <thead class="product-table__head">
+                  <tr>
+                    <td class="product-table__article"><span class="product-table__filter">Артикул</span></td>
+                    <td class="product-table__code"><span class="product-table__filter">Код товара</span></td>
+                    <td class="product-table__pic"><span class="product-table__filter">Фото</span></td>
+                    <td class="product-table__name"><span class="product-table__filter active increase">Название</span></td>
+                    <td class="product-table__price"><span class="product-table__filter active decrease">Цена</span></td>
+                    <td class="product-table__discount"><span class="product-table__filter">Скидка</span></td>
+                    <td class="product-table__new-price"><span class="product-table__filter">Цена со скидкой</span></td>
+                    <td class="product-table__quantity"><span class="product-table__filter">Количество</span></td>
+                  </tr>
+                </thead>
+                <tbody class="product-table__body">
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                  <tr class="product-table__item">
+                    <td class="product-table__article">LA1304</td>
+                    <td class="product-table__code">М4521</td>
+                    <td class="product-table__pic"><img class="product-table__item-image" src="<%=require('./images/product.jpg')%>" alt=""></td>
+                    <td class="product-table__name">Набор детской посуды LITTLE ANGEL Фиксики (тарелка, миска, стакан, ложка)</td>
+                    <td class="product-table__price">282.44 ₽</td>
+                    <td class="product-table__discount">10%</td>
+                    <td class="product-table__new-price">260.20 ₽</td>
+                    <td class="product-table__item-quantity">
+                      1511
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          <div class="order-history__item-footer">
+            <div class="item-footer__left">
+              <div class="item-footer__btns">
+                <button class="item-footer__btn item-footer__btn-send">
+                  <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.522 9.51842V1.17822M20.522 1.17822H1.51904M20.522 1.17822L11.1261 8.56824L1.51904 1.17822M1.51904 1.17822V14.6416C1.51904 15.1938 1.96676 15.6416 2.51904 15.6416H12.0762M22 15.6416H14.2932M22 15.6416L18.4633 12.1049M22 15.6416L18.4633 19.1782" stroke="black" stroke-opacity="0.8" stroke-width="2" stroke-linejoin="round"/>
+                  </svg>
+                  Отправить на почту
+                </button>
+                <button class="item-footer__btn item-footer__btn-save">
+                  <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 1.17822V4.57822C5 5.13828 5 5.4183 5.10899 5.63221C5.20487 5.82038 5.35785 5.97336 5.54601 6.06923C5.75992 6.17822 6.03995 6.17822 6.6 6.17822H13.4C13.9601 6.17822 14.2401 6.17822 14.454 6.06923C14.6422 5.97336 14.7951 5.82038 14.891 5.63221C15 5.4183 15 5.13828 15 4.57822V2.17822M15 19.1782V12.7782C15 12.2182 15 11.9381 14.891 11.7242C14.7951 11.5361 14.6422 11.3831 14.454 11.2872C14.2401 11.1782 13.9601 11.1782 13.4 11.1782H6.6C6.03995 11.1782 5.75992 11.1782 5.54601 11.2872C5.35785 11.3831 5.20487 11.5361 5.10899 11.7242C5 11.9381 5 12.2182 5 12.7782V19.1782M19 7.50371V14.3782C19 16.0584 19 16.8985 18.673 17.5402C18.3854 18.1047 17.9265 18.5636 17.362 18.8512C16.7202 19.1782 15.8802 19.1782 14.2 19.1782H5.8C4.11984 19.1782 3.27976 19.1782 2.63803 18.8512C2.07354 18.5636 1.6146 18.1047 1.32698 17.5402C1 16.8985 1 16.0584 1 14.3782V5.97822C1 4.29807 1 3.45799 1.32698 2.81625C1.6146 2.25176 2.07354 1.79282 2.63803 1.5052C3.27976 1.17822 4.11984 1.17822 5.8 1.17822H12.6745C13.1637 1.17822 13.4083 1.17822 13.6385 1.23348C13.8425 1.28248 14.0376 1.36328 14.2166 1.47294C14.4184 1.59663 14.5914 1.76958 14.9373 2.11548L18.0627 5.24097C18.4086 5.58687 18.5816 5.75982 18.7053 5.96165C18.8149 6.1406 18.8957 6.33569 18.9447 6.53976C19 6.76993 19 7.01452 19 7.50371Z" stroke="#010101" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  Сохранить как файл
+                </button>
+              </div>
+            </div>
+            <div class="item-footer__right">
+              <div class="item-footer__total">
+                <div class="item-footer__total-title">Итого:</div>
+                <div>
+                  <div class="item-footer__total-old">1 000 282.44 ₽</div>
+                  <div class="item-footer__total-price">1 000 240.44 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="order-history__item-btn"></button> <!-- Если закрыт по умолчанию, удаляем класс open -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

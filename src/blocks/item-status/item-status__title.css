@@ -1,0 +1,8 @@
+.item-status__title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(1, 1, 1, 0.87);
+}

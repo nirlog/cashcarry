@@ -1,0 +1,21 @@
+
+.order-history__item-footer {
+    display: flex;
+    gap: 20px 60px;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 800px) {
+    .order-history__item-footer {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .order-history__item-footer {
+        flex-wrap: wrap;
+    }
+}

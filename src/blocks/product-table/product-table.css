@@ -1,0 +1,6 @@
+.product-table {
+    min-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}

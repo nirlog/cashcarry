@@ -1,0 +1,45 @@
+@import url(../blocks/order-history/order-history.css);
+@import url(../blocks/order-history/order-history__content.css);
+@import url(../blocks/order-history/order-history__item-footer.css);
+@import url(../blocks/order-history/order-history__item-header.css);
+@import url(../blocks/order-history/order-history__item-products.css);
+@import url(../blocks/order-history/order-history__item.css);
+@import url(../blocks/order-history/order-history__list.css);
+@import url(../blocks/order-history/order-history__menu-item.css);
+@import url(../blocks/order-history/order-history__menu-link.css);
+@import url(../blocks/order-history/order-history__menu-title.css);
+@import url(../blocks/order-history/order-history__menu.css);
+@import url(../blocks/order-history/order-history__title.css);
+@import url(../blocks/order-history/order-history__item-btn.css);
+
+@import url(../blocks/item-title/item-title.css);
+@import url(../blocks/item-title/item-title__date.css);
+@import url(../blocks/item-status/item-status.css);
+@import url(../blocks/item-status/item-status__title.css);
+@import url(../blocks/item-status/item-status__value.css);
+@import url(../blocks/item-cancel/item-cancel.css);
+@import url(../blocks/item-cancel/item-cancel__btn.css);
+
+
+@import url(../blocks/product-table/product-table.css);
+@import url(../blocks/product-table/product-table__body.css);
+@import url(../blocks/product-table/product-table__filter.css);
+@import url(../blocks/product-table/product-table__head.css);
+@import url(../blocks/product-table/product-table__item-image.css);
+@import url(../blocks/product-table/product-table__item-quantity.css);
+@import url(../blocks/product-table/product-table__item.css);
+
+@import url(../blocks/item-footer/item-footer.css);
+@import url(../blocks/item-footer/item-footer__left.css);
+@import url(../blocks/item-footer/item-footer__btns.css);
+@import url(../blocks/item-footer/item-footer__btn.css);
+@import url(../blocks/item-footer/item-footer__btn-send.css);
+@import url(../blocks/item-footer/item-footer__btn-save.css);
+@import url(../blocks/item-footer/item-footer__right.css);
+@import url(../blocks/item-footer/item-footer__total.css);
+@import url(../blocks/item-footer/item-footer__total-title.css);
+@import url(../blocks/item-footer/item-footer__total-old.css);
+@import url(../blocks/item-footer/item-footer__total-price.css);
+
+
+

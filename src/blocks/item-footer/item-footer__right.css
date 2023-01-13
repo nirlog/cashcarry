@@ -1,0 +1,10 @@
+.item-footer__right {
+    width: 100%;
+    max-width: 470px;
+}
+
+@media screen and (max-width: 600px) {
+    .item-footer__right {
+        order: 1;
+    }
+}
